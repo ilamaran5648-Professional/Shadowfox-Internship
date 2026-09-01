@@ -1,0 +1,20 @@
+==================================================
+SHADOWFOX INTERNSHIP TASK BRIEF
+==================================================
+
+Company Name: SHADOWFOX
+Program: AI Engineering Internship
+Internship Duration: August 1, 2026 to September 2, 2026
+Student Candidate: B.Tech Information Technology, 3rd Year Student from PKIET College.
+
+Project Scope:
+The candidate is required to build an Advanced Production-Style Retrieval-Augmented Generation (RAG) Assistant named DocuMind RAG.
+
+Key Technical Guidelines:
+1. Multi-format support for PDF, TXT, and Markdown files.
+2. Local CPU embedding generation using sentence-transformers/all-MiniLM-L6-v2.
+3. Persistent vector indexing using FAISS IndexFlatIP.
+4. Orchestration using LangGraph state machine nodes.
+5. Strict anti-hallucination guardrails: If information is absent from documents, the assistant must explicitly refuse to answer.
+6. Decoupled microservices architecture: FastAPI backend on port 8000 and Streamlit frontend UI on port 8501.
+7. Containerized deployment using Docker Compose.

@@ -1,0 +1,27 @@
+# Environment Variables
+.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Project Data Directories
+data/uploads/*
+!data/uploads/.gitkeep
+data/index/*
+!data/index/.gitkeep
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+
+# Docker
+.dockerignore
